@@ -1,3 +1,5 @@
+month = int(input('Введите номер месяца (от 1 до 12)'))
+
 if month in [12, 1, 2]:
     print('зима')
 elif month in [3, 4, 5]:
